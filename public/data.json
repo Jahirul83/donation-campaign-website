@@ -1,0 +1,123 @@
+[
+    {
+      "picture": "https://example.com/pic1.jpg",
+      "title": "Product 1",
+      "category": "Health",
+      "category_bg_color": "blue",
+      "card_bg_color": "#ecf0f1",
+      "text_button_bg_color": "#2ecc71",
+      "description": "This is a health-related product.",
+      "price": 19.99
+    },
+    {
+      "picture": "https://example.com/pic2.jpg",
+      "title": "Product 2",
+      "category": "Education",
+      "category_bg_color": "red",
+      "card_bg_color": "#f2dede",
+      "text_button_bg_color": "#d9534f",
+      "description": "This is an educational product.",
+      "price": 29.99
+    },
+    {
+      "picture": "https://example.com/pic3.jpg",
+      "title": "Product 3",
+      "category": "Clothing",
+      "category_bg_color": "green",
+      "card_bg_color": "#fcf3cf",
+      "text_button_bg_color": "#f1c40f",
+      "description": "This is a clothing product.",
+      "price": 39.99
+    },
+    {
+      "picture": "https://example.com/pic4.jpg",
+      "title": "Product 4",
+      "category": "Food",
+      "category_bg_color": "orange",
+      "card_bg_color": "#e8daef",
+      "text_button_bg_color": "#8e44ad",
+      "description": "This is a food-related product.",
+      "price": 49.99
+    },
+    {
+      "picture": "https://example.com/pic5.jpg",
+      "title": "Product 5",
+      "category": "Health",
+      "category_bg_color": "blue",
+      "card_bg_color": "#ecf0f1",
+      "text_button_bg_color": "#2ecc71",
+      "description": "This is another health-related product.",
+      "price": 24.99
+    },
+    {
+      "picture": "https://example.com/pic6.jpg",
+      "title": "Product 6",
+      "category": "Education",
+      "category_bg_color": "red",
+      "card_bg_color": "#f2dede",
+      "text_button_bg_color": "#d9534f",
+      "description": "This is another educational product.",
+      "price": 34.99
+    },
+    {
+      "picture": "https://example.com/pic7.jpg",
+      "title": "Product 7",
+      "category": "Clothing",
+      "category_bg_color": "green",
+      "card_bg_color": "#fcf3cf",
+      "text_button_bg_color": "#f1c40f",
+      "description": "This is another clothing product.",
+      "price": 44.99
+    },
+    {
+      "picture": "https://example.com/pic8.jpg",
+      "title": "Product 8",
+      "category": "Food",
+      "category_bg_color": "orange",
+      "card_bg_color": "#e8daef",
+      "text_button_bg_color": "#8e44ad",
+      "description": "This is another food-related product.",
+      "price": 54.99
+    },
+    {
+      "picture": "https://example.com/pic9.jpg",
+      "title": "Product 9",
+      "category": "Health",
+      "category_bg_color": "blue",
+      "card_bg_color": "#ecf0f1",
+      "text_button_bg_color": "#2ecc71",
+      "description": "This is yet another health-related product.",
+      "price": 29.99
+    },
+    {
+      "picture": "https://example.com/pic10.jpg",
+      "title": "Product 10",
+      "category": "Education",
+      "category_bg_color": "red",
+      "card_bg_color": "#f2dede",
+      "text_button_bg_color": "#d9534f",
+      "description": "This is yet another educational product.",
+      "price": 39.99
+    },
+    {
+      "picture": "https://example.com/pic11.jpg",
+      "title": "Product 11",
+      "category": "Clothing",
+      "category_bg_color": "green",
+      "card_bg_color": "#fcf3cf",
+      "text_button_bg_color": "#f1c40f",
+      "description": "This is yet another clothing product.",
+      "price": 49.99
+    },
+    {
+      "picture": "https://example.com/pic12.jpg",
+      "title": "Product 12",
+      "category": "Food",
+      "category_bg_color": "orange",
+      "card_bg_color": "#e8daef",
+      "text_button_bg_color": "#8e44ad",
+      "description": "This is yet another food-related product.",
+      "price": 59.99
+    }
+  ]
+  
