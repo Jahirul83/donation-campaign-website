@@ -9,27 +9,28 @@ import ShowDetails from "../ShowDetails/ShowDetails";
 
 const Route = createBrowserRouter([
     {
-        path:"/",
+        path: "/",
         element: <MainLayout></MainLayout>,
-        errorElement:<ErrorPage></ErrorPage>,
-        children:[
+        errorElement: <ErrorPage></ErrorPage>,
+        children: [
             {
-                path:"/",
-                element:<Home></Home>,
-                loader:()=>fetch('data.json')
+                path: "/",
+                element: <Home></Home>,
+                loader: () => fetch('data.json')
             },
 
             {
-                path:"/donation",
+                path: "/donation",
                 element: <Donation></Donation>
             },
             {
-                path:"/statistics",
+                path: "/statistics",
                 element: <Statistics></Statistics>
             },
             {
-                path:"/details/:id",
-                element:<ShowDetails></ShowDetails>
+                path: "/details/:id",
+                element: <ShowDetails></ShowDetails>,
+                loader: () => fetch('data.json')
             }
         ]
     }
