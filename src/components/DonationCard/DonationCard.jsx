@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const DonationCard = (donation) => {
+const DonationCard = ({donation}) => {
     const {  picture, description, title } = donation;
     return (
         <div>
