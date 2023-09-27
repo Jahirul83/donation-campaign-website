@@ -13,7 +13,7 @@ const DonationCard = ({ donation }) => {
                         <h1 className="text-2xl font-bold">{title}</h1>
                         <p style={{color:text_button_bg_color}} className="py-6 font-bold">${price}</p>
                         <button style={{backgroundColor:text_button_bg_color}}
-                        className="btn ">View Details</button>
+                        className="btn text-white">View Details</button>
                     </div>
                 </div>
             </div>
