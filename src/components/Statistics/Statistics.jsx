@@ -19,7 +19,6 @@ const Statistics = () => {
             const total = donatedCategory.reduce((perValue, currentValue) => perValue + currentValue.price, 0);
             setTotalPrice(total);
         }
-        console.log(donatedCategory);
     }, []);
 
     let x = donatedCategory.length;
