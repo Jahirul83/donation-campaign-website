@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import 'react-toastify/dist/ReactToastify.css';
+import swal from "sweetalert";
 
 
 const ShowDetails = () => {
@@ -21,9 +23,50 @@ const ShowDetails = () => {
 
 
     const handleAddToDonation = () => {
-        console.log(cardDetails);
+        // console.log(cardDetails);
 
-       
+        const addTODonation = [];
+
+
+        const donatedCategory = JSON.parse(localStorage.getItem('donations'))
+        if (!donatedCategory) {
+            addTODonation.push(cardDetails);
+            localStorage.setItem('donations', JSON.stringify(addTODonation));
+            swal({
+                title: "Good job!",
+                text: "Donation successfully done",
+                icon: "success",
+                button: "ok",
+              });
+
+        }
+        else {
+
+            const isExists = donatedCategory.find(donation => donation.id === id)
+            if (isExists) {
+                swal({
+                    title: "ERROR",
+                    text: "Already Donated",
+                    icon: "error",
+                    button: "ok",
+                  });
+            }
+            else {
+
+                addTODonation.push(...donatedCategory, cardDetails);
+                localStorage.setItem('donations', JSON.stringify(addTODonation));
+                swal({
+                    title: "Good job!",
+                    text: "Donation successfully done",
+                    icon: "success",
+                    button: "ok",
+                  });
+            }
+
+
+        }
+
+
     }
 
 
