@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
 
-const DonationCard = ({donation}) => {
-    const {  picture, description, title } = donation;
+
+const DonationCard = ({ donation }) => {
+    const { picture, description, title } = donation;
     return (
         <div>
             <div className="hero bg-base-200 rounded-lg">
@@ -18,7 +18,4 @@ const DonationCard = ({donation}) => {
     );
 };
 
-DonationCard.prototype = {
-    donation: PropTypes.object
-}
 export default DonationCard;
