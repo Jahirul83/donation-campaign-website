@@ -8,7 +8,7 @@ const Cards = ({ card }) => {
         <div>
             <Link to={`/details/${id}`}>
                 <div style={{backgroundColor: card_bg_color}} className="card card-compact shadow-xl">
-                    <figure><img className='w-fit' src={picture} /></figure>
+                    <figure><img className='w-80 h-72' src={picture} /></figure>
                     <div className="card-body">
                         <div className="card-actions">
                             <button style={{color:text_button_bg_color, border:"2px solid", backgroundColor:category_bg_color}} className="btn">{category}</button>
