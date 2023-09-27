@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Cards = ({ card }) => {
     const {id, category, title, picture, category_bg_color, card_bg_color, text_button_bg_color } = card;
-    console.log(title)
+    // console.log(title)
     return (
         <div>
             <Link to={`/details/${id}`}>
                 <div style={{backgroundColor: card_bg_color}} className="card card-compact shadow-xl">
-                    <figure><img src={picture} alt="Shoes" /></figure>
+                    <figure><img className='w-fit' src={picture} /></figure>
                     <div className="card-body">
                         <div className="card-actions">
                             <button style={{color:text_button_bg_color, border:"2px solid", backgroundColor:category_bg_color}} className="btn">{category}</button>

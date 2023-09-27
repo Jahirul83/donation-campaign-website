@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "picture": "https://i.ibb.co/68fCY9g/Health.png",
     "title": "Health Product 1",
     "category": "Health",
@@ -11,7 +11,7 @@
     "price": 19.99
   },
   {
-    "id": 2,
+    "id": "2",
     "picture": "https://i.ibb.co/60WxGVJ/Food.png",
     "title": "Food Product 1",
     "category": "Food",
@@ -22,7 +22,7 @@
     "price": 29.99
   },
   {
-    "id": 3,
+    "id": "3",
     "picture": "https://i.ibb.co/zFW3Z4z/Rectangle-4287.png",
     "title": "Clothing Product 1",
     "category": "Clothing",
@@ -33,7 +33,7 @@
     "price": 39.99
   },
   {
-    "id": 4,
+    "id": "4",
     "picture": "https://i.ibb.co/rxrWhwy/Rectangle-4284.png",
     "title": "Education Product 1",
     "category": "Education",
@@ -44,7 +44,7 @@
     "price": 49.99
   },
   {
-    "id": 5,
+    "id": "5",
     "picture": "https://i.ibb.co/68fCY9g/Health.png",
     "title": "Health Product 2",
     "category": "Health",
@@ -55,7 +55,7 @@
     "price": 24.99
   },
   {
-    "id": 6,
+    "id": "6",
     "picture": "https://i.ibb.co/60WxGVJ/Food.png",
     "title": "Food Product 2",
     "category": "Food",
@@ -66,7 +66,7 @@
     "price": 34.99
   },
   {
-    "id": 7,
+    "id": "7",
     "picture": "https://i.ibb.co/7z42k7M/Rectangle-4287-1.png",
     "title": "Clothing Product 2",
     "category": "Clothing",
@@ -77,7 +77,7 @@
     "price": 44.99
   },
   {
-    "id": 8,
+    "id": "8",
     "picture": "https://i.ibb.co/Hp58Bt2/Rectangle-4287-2.png",
     "title": "Education Product 2",
     "category": "Education",
@@ -88,7 +88,7 @@
     "price": 54.99
   },
   {
-    "id": 9,
+    "id": "9",
     "picture": "https://i.ibb.co/jGV4mct/Rectangle-4288.png",
     "title": "Health Product 3",
     "category": "Health",
@@ -99,7 +99,7 @@
     "price": 29.99
   },
   {
-    "id": 10,
+    "id": "10",
     "picture": "https://i.ibb.co/68fCY9g/Health.png",
     "title": "Food Product 3",
     "category": "Food",
@@ -110,7 +110,7 @@
     "price": 39.99
   },
   {
-    "id": 11,
+    "id": "11",
     "picture": "https://i.ibb.co/KzH5SM0/Education.png",
     "title": "Clothing Product 3",
     "category": "Clothing",
@@ -121,7 +121,7 @@
     "price": 49.99
   },
   {
-    "id": 12,
+    "id": "12",
     "picture": "https://i.ibb.co/rxrWhwy/Rectangle-4284.png",
     "title": "Education Product 3",
     "category": "Education",
