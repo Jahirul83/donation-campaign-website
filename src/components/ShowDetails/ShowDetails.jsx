@@ -78,7 +78,7 @@ const ShowDetails = () => {
                 <div className="absolute bottom-2 -mt-10 bg-opacity-50 bg-slate-900 p-6 w-full">
                     <button
                         onClick={handleAddToDonation}
-                        style={{ backgroundColor: cardDetails.text_button_bg_color }} className="btn text-white">Donate {cardDetails.price}</button>
+                        style={{ backgroundColor: cardDetails.text_button_bg_color }} className="btn text-white">Donate ${cardDetails.price}</button>
                 </div>
             </div>
             <div className="my-12">
