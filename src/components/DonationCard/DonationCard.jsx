@@ -2,16 +2,18 @@
 
 
 const DonationCard = ({ donation }) => {
-    const { picture, description, title} = donation;
+    const { picture, title,category,category_bg_color,text_button_bg_color,card_bg_color,price} = donation;
     return (
         <div>
-            <div className="hero bg-base-200 rounded-lg">
+            <div style={{backgroundColor:card_bg_color}} className="hero  rounded-lg">
                 <div className="hero-content flex-col lg:flex-row">
                     <img className='w-80 h-80' src={picture} />
                     <div>
+                        <p style={{backgroundColor:category_bg_color, color: text_button_bg_color}} className="w-fit p-3 rounded">{category}</p>
                         <h1 className="text-2xl font-bold">{title}</h1>
-                        <p className="py-6">{description}</p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <p style={{color:text_button_bg_color}} className="py-6 font-bold">${price}</p>
+                        <button style={{backgroundColor:text_button_bg_color}}
+                        className="btn ">View Details</button>
                     </div>
                 </div>
             </div>

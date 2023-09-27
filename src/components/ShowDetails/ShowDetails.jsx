@@ -82,8 +82,8 @@ const ShowDetails = () => {
                 </div>
             </div>
             <div className="my-12">
-                <h2 className="text-5xl">{cardDetails.title}</h2>
-                <p>{cardDetails.description}</p>
+                <h2 className="text-3xl">{cardDetails.title}</h2>
+                <p className="my-3">{cardDetails.description}</p>
             </div>
         </div>
 
