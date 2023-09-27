@@ -9,12 +9,17 @@ const Donation = () => {
     const [noDataFound, setNoDataFound] = useState("");
     const [isSeeAll, setSeeAll] = useState(false);
 
+
+    const [totalPrice, setTotalPrice] = useState(0);
+
     useEffect(() => {
         const donatedCategory = JSON.parse(localStorage.getItem('donations'));
 
         if (donatedCategory) {
 
             setDonations(donatedCategory);
+            const total = donatedCategory.reduce((perValue,currentValue)=> perValue+currentValue.price,0);
+            console.log(total);
         }
         else {
             setNoDataFound('No Data Found');
