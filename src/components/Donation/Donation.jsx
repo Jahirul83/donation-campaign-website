@@ -10,7 +10,7 @@ const Donation = () => {
     const [isSeeAll, setSeeAll] = useState(false);
 
 
-    const [totalPrice, setTotalPrice] = useState(0);
+    // const [totalPrice, setTotalPrice] = useState(0);
 
     useEffect(() => {
         const donatedCategory = JSON.parse(localStorage.getItem('donations'));
