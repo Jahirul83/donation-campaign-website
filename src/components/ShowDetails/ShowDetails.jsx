@@ -74,7 +74,7 @@ const ShowDetails = () => {
     return (
         <div className="mb-20">
             <div className="relative min-h-screen my-14">
-                <img className="w-screen min-h-screen" src={cardDetails.picture} alt="" />
+                <img className="w-screen h-screen" src={cardDetails.picture} alt="" />
                 <div className="absolute bottom-2 -mt-10 bg-opacity-50 bg-slate-900 p-6 w-full">
                     <button
                         onClick={handleAddToDonation}

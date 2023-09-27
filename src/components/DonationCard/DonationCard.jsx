@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 
 
 const DonationCard = ({ donation }) => {
-    const { picture, description, title } = donation;
+    const { picture, description, title} = donation;
     return (
         <div>
             <div className="hero bg-base-200 rounded-lg">
